@@ -2,14 +2,14 @@
  * Globals
  */
 
-/* Links */
-a,
-a:focus,
-a:hover {
+ /* Links */
+ a,
+ a:focus,
+ a:hover {
   color: #fff;
 }
 
-body { padding-top: 50px; }
+body { padding-top: 5g0px; }
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -25,16 +25,32 @@ body { padding-top: 50px; }
  * Base structure
  */
 
-html,
-body {
+ html,
+ body {
   height: 100%;
-  background-color: #eee;
-}
-body {
-  color: #000;
+  background-color: #fdfafa;
+  color: #333333;
   text-align: center;
 }
 
+.footer, .push {
+  height: 155px; /* .push must be the same height as .footer */
+}
+/* 
+ *  Let there be color!
+ */
+ .navbar-default {
+  background-color: #38b5a8;
+  border-color:   #aaaaaa;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:  #333333;
+}
+
+.navbar-default .navbar-brand {
+  color: #333333;
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -42,7 +58,7 @@ body {
   height: 100%; /* For at least Firefox */
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 .site-wrapper-inner {
  padding: 100px;
@@ -61,7 +77,7 @@ body {
 /*
  * Header
  */
-.masthead-brand {
+ .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -108,7 +124,7 @@ body {
  * Cover
  */
 
-.cover {
+ .cover {
   padding: 0 20px;
 }
 .cover .btn-lg {
@@ -121,9 +137,9 @@ body {
  * Footer
  */
 
-.mastfoot {
+ .mastfoot {
   color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+  color: rgba(0,0,0,.5);
 }
 
 
@@ -131,7 +147,7 @@ body {
  * Affix and center
  */
 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
