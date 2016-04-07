@@ -20,6 +20,9 @@ body { padding-top: 5g0px; }
   border: 1px solid #fff;
 }
 
+.btn-default, .btn-default:hover, .btn-default:focus {
+    background-color: #bbbbbb;
+}
 
 /*
  * Base structure
